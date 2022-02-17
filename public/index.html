@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather Widget</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./public/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section class="weather-block">
+            <div class="wb-container">
+                <header class="wid-head block">
+                    <div class="wh-cont">
+                        <section class="city-name">
+                            <h2>Tartu</h2>
+                        </section>
+                        <section class="btn-block">
+                            <input id="btn-generate" class="btn" type="button" value="Generate">
+                        </section>
+                    </div>
+                </header>
+                <section id="temp" class="temp block">
+                    Temperature:
+                </section>
+                <section  class="precip block">
+                    Precipitation: <p id="precip" role="img"></p>
+                </section>
+                <section id="wind" class="wind block">
+                    Wind:
+                </section>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
