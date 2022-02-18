@@ -1,4 +1,5 @@
 import { getTemperature, getWindSpeed } from "../src/functions";
+import '../css/style.css';
 
 document.getElementById('btn-generate').addEventListener('click', () => {
   const data = ['&#x2600;', '&#x26C5;', '&#x2601;', '&#x1F327;', '&#x1F329;', '&#x1F328;', '&#x1F326;'];
